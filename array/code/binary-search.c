@@ -46,9 +46,10 @@ int RBinSearch(int a[], int l, int h, int key)
             return mid;
         else if (key < a[mid])
             return RBinSearch(a, l, mid - 1, key);
+        else
+            return RBinSearch(a, mid + 1, h, key);
     }
-    else
-        return RBinSearch(a, mid + 1, h, key);
+
     return -1;
 }
 int main()
