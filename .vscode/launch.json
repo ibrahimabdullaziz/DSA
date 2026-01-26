@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/DS & ALGO/array/code",
-      "program": "d:/DS & ALGO/array/code/build/Debug/outDebug",
+      "cwd": "d:/DS & ALGO/Recursion/code",
+      "program": "d:/DS & ALGO/Recursion/code/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
